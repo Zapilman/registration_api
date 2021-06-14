@@ -32,6 +32,6 @@ public class AppUserService implements UserDetailsService {
 
         repository.save(appUser);
 
-        return "it works";
+        return encodedPassword;
     }
 }
