@@ -15,3 +15,11 @@ spring:
       hibernate:
     show-sql: true
 
+application:
+  jwt:
+    secretKey: ASDnasdlkjaboi8e13jkAKLJSHDkl132lJASFAbsfkl4
+    tokenPrefix: Bearer
+    tokenExpirationAfterDays: 14
+
+allowed:
+  origin: http://localhost:3000
